@@ -1,1 +1,1 @@
-web: gunicorn Bond_Dashboard:server
+web: gunicorn app:server
