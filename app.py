@@ -152,4 +152,4 @@ def duration_cal(n1,N,M,pv,fv,c,y_init):
     return rate
 
 if __name__=="__main__":
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0',debug=True)
