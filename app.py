@@ -8,7 +8,8 @@ from calculator import *
 from dash.dependencies import Input,Output,State
 from dash.exceptions import PreventUpdate
 
-app=dash.Dash()
+app=dash.Dash(__name__)
+server = app.server
 app.title='Bond Calculator'
 
 app.layout=dbc.Container(
